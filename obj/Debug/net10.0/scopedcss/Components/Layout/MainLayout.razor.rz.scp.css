@@ -1,0 +1,18 @@
+.sidebar-wrapper[b-moy2k54of9] {
+  width: 17rem;
+  flex-shrink: 0;
+  z-index: 1030;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 991.98px) {
+  .sidebar-wrapper[b-moy2k54of9] {
+    width: 100%;
+    position: relative;
+  }
+
+  .main-content[b-moy2k54of9] {
+    margin-top: 0;
+    width: 100%;
+  }
+}

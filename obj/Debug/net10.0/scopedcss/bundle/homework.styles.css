@@ -1,0 +1,261 @@
+/* /Components/Layout/MainLayout.razor.rz.scp.css */
+.sidebar-wrapper[b-moy2k54of9] {
+  width: 17rem;
+  flex-shrink: 0;
+  z-index: 1030;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 991.98px) {
+  .sidebar-wrapper[b-moy2k54of9] {
+    width: 100%;
+    position: relative;
+  }
+
+  .main-content[b-moy2k54of9] {
+    margin-top: 0;
+    width: 100%;
+  }
+}
+/* /Components/Layout/NavMenu.razor.rz.scp.css */
+/* .sidebar-wrapper {
+  width: 280px;
+  flex-shrink: 0;
+  z-index: 1030;
+}
+
+.sidebar {
+  height: 100vh;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+} */
+.navbar[b-l09ro575sg] {
+  height: 100vh;
+  position: fixed;
+  width: 17rem;
+}
+.profile-img[b-l09ro575sg] {
+  width: 150px;
+  height: 150px;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+.profile-img img[b-l09ro575sg] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.nav-item[b-l09ro575sg] {
+  color: white;
+  font-weight: 800;
+}
+.nav-item .nav-link[b-l09ro575sg] {
+  opacity: 0.5; /* ← Đặt trên <a> */
+  color: white !important;
+}
+.nav-item .nav-link.active[b-l09ro575sg] {
+  opacity: 1; /* ← Override được vì cùng cấp */
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  color: white;
+}
+
+.nav-item:hover[b-l09ro575sg] {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  transform: translateX(8px);
+}
+
+/* Mobile */
+@media (max-width: 991.98px) {
+  .sidebar-wrapper[b-l09ro575sg] {
+    width: 100%;
+    position: relative;
+  }
+  .main-content[b-l09ro575sg] {
+    margin-top: 0;
+  }
+}
+/* /Components/Layout/ReconnectModal.razor.rz.scp.css */
+.components-reconnect-first-attempt-visible[b-a1uh01verz],
+.components-reconnect-repeated-attempt-visible[b-a1uh01verz],
+.components-reconnect-failed-visible[b-a1uh01verz],
+.components-pause-visible[b-a1uh01verz],
+.components-resume-failed-visible[b-a1uh01verz],
+.components-rejoining-animation[b-a1uh01verz] {
+    display: none;
+}
+
+#components-reconnect-modal.components-reconnect-show .components-reconnect-first-attempt-visible[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-show .components-rejoining-animation[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-paused .components-pause-visible[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-resume-failed .components-resume-failed-visible[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-retrying[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-retrying .components-reconnect-repeated-attempt-visible[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-retrying .components-rejoining-animation[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-failed[b-a1uh01verz],
+#components-reconnect-modal.components-reconnect-failed .components-reconnect-failed-visible[b-a1uh01verz] {
+    display: block;
+}
+
+
+#components-reconnect-modal[b-a1uh01verz] {
+    background-color: white;
+    width: 20rem;
+    margin: 20vh auto;
+    padding: 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px 2px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: display 0.5s allow-discrete, overlay 0.5s allow-discrete;
+    animation: components-reconnect-modal-fadeOutOpacity-b-a1uh01verz 0.5s both;
+    &[open]
+
+{
+    animation: components-reconnect-modal-slideUp-b-a1uh01verz 1.5s cubic-bezier(.05, .89, .25, 1.02) 0.3s, components-reconnect-modal-fadeInOpacity-b-a1uh01verz 0.5s ease-in-out 0.3s;
+    animation-fill-mode: both;
+}
+
+}
+
+#components-reconnect-modal[b-a1uh01verz]::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: components-reconnect-modal-fadeInOpacity-b-a1uh01verz 0.5s ease-in-out;
+    opacity: 1;
+}
+
+@keyframes components-reconnect-modal-slideUp-b-a1uh01verz {
+    0% {
+        transform: translateY(30px) scale(0.95);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes components-reconnect-modal-fadeInOpacity-b-a1uh01verz {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes components-reconnect-modal-fadeOutOpacity-b-a1uh01verz {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.components-reconnect-container[b-a1uh01verz] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#components-reconnect-modal p[b-a1uh01verz] {
+    margin: 0;
+    text-align: center;
+}
+
+#components-reconnect-modal button[b-a1uh01verz] {
+    border: 0;
+    background-color: #6b9ed2;
+    color: white;
+    padding: 4px 24px;
+    border-radius: 4px;
+}
+
+    #components-reconnect-modal button:hover[b-a1uh01verz] {
+        background-color: #3b6ea2;
+    }
+
+    #components-reconnect-modal button:active[b-a1uh01verz] {
+        background-color: #6b9ed2;
+    }
+
+.components-rejoining-animation[b-a1uh01verz] {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+    .components-rejoining-animation div[b-a1uh01verz] {
+        position: absolute;
+        border: 3px solid #0087ff;
+        opacity: 1;
+        border-radius: 50%;
+        animation: components-rejoining-animation-b-a1uh01verz 1.5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+
+        .components-rejoining-animation div:nth-child(2)[b-a1uh01verz] {
+            animation-delay: -0.5s;
+        }
+
+@keyframes components-rejoining-animation-b-a1uh01verz {
+    0% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    4.9% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+
+    5% {
+        top: 40px;
+        left: 40px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 80px;
+        height: 80px;
+        opacity: 0;
+    }
+}
+/* /Components/Pages/About.razor.rz.scp.css */
+.subheading a[b-emcdlj68cx] {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+p.lead[b-emcdlj68cx] {
+  font-weight: 400;
+}
+
+.about-social-group .social-icon[b-emcdlj68cx] {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+/* /Components/Pages/Experience.razor.rz.scp.css */
