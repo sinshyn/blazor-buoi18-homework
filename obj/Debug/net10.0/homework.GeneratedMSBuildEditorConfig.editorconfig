@@ -26,12 +26,24 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/Education.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZHVjYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/Experience.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFeHBlcmllbmNlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/NotFound.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOb3RGb3VuZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/Skill.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTa2lsbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/dotNet/Code.Net/Blazor/bt/homework/Components/Routes.razor]
@@ -57,7 +69,3 @@ build_metadata.AdditionalFiles.CssScope = b-a1uh01verz
 [D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/About.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBYm91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-emcdlj68cx
-
-[D:/dotNet/Code.Net/Blazor/bt/homework/Components/Pages/Experience.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFeHBlcmllbmNlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-ho19g7scr6

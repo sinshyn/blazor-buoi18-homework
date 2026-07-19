@@ -82,6 +82,7 @@ D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\homework.genruntimeconfi
 D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\ref\homework.dll
 D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\scopedcss\Components\Pages\About.razor.rz.scp.css
 D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\scopedcss\Components\Pages\Experience.razor.rz.scp.css
-D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\compressed\vincj5kiqk-{0}-o0o7wk0q2a-o0o7wk0q2a.gz
-D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\compressed\kkw9zfgqzu-{0}-nipst7ht68-nipst7ht68.gz
-D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\compressed\tl2kubatg8-{0}-nipst7ht68-nipst7ht68.gz
+D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\homework.sourcelink.json
+D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\compressed\vincj5kiqk-{0}-fqjtoiochz-fqjtoiochz.gz
+D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\compressed\kkw9zfgqzu-{0}-nzd1d0o01e-nzd1d0o01e.gz
+D:\dotNet\Code.Net\Blazor\bt\homework\obj\Debug\net10.0\compressed\tl2kubatg8-{0}-nzd1d0o01e-nzd1d0o01e.gz
